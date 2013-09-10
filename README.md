@@ -12,4 +12,11 @@ A fluid grid based on percentages, with columns that automatically stack vertica
   
 A robust set of UI controls and components ready to drop into a page:  
   
-Oauth/OpenID Login, Lightbox Popups, Buttons, Tabs, Sliders, Web Fonts, Glyph Icons, etc.  
+Oauth/OpenID Login (Google/Facebook/Yahoo/MyOpenID), Lightbox Popups, Buttons, Tabs, Sliders, Google Web Fonts, Glyph Icons, etc:  
+
+    [rp_login_form]  
+    [rp_lightbox]  
+    [rp_button]  
+    [rp_choice type="tabs"]  
+    <p style="font-family:Open Sans;">...</p>  
+    <span class="icon-download">Download</span>  
