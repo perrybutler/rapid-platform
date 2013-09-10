@@ -38,6 +38,6 @@ An automatic option page builder that creates entire options pages in the WordPr
 
 ![Alt text](http://therapidplatform.com/wp-content/uploads/2012/11/options2.jpg)
 
-...and when the text file changes, the forms, fields and database are automatically updated.
+...and when the text file changes, the forms, fields and database are automatically updated. Traditionally, you might find yourself stripping out the field elements, deleting the validation/sanitation logic for those fields, modifying the database/sql procedures that couple these fields to the database, etc.
 
 More neat stuff here.
