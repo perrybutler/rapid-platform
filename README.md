@@ -15,6 +15,8 @@ A fluid grid based on fixed percentages, with columns that automatically stack v
   
 Weirded out by the brackets? Shortcodes are kind of like markdown...syntax for a highly simplified text editor which converts (gets pre-processed) into actual PHP/HTML content.
 
+![rp_grid](http://files.glassocean.net/github/rp-grid.png)
+
 UI Controls & Widgets
 ---------------------
 
@@ -27,16 +29,18 @@ A robust set of UI controls and components ready to drop into a page. Oauth/Open
     <p style="font-family:Open Sans;">...</p>  
     <span class="icon-download">Download</span>  
 
+![responsive ui](http://files.glassocean.net/github/rp-responsive-ui.png)
+
 Options Bootstrapper
 --------------------
 
 An automatic option page builder that creates entire options pages in the WordPress admin dashboard with forms and fields tied into the database. Currently no UI designer for this, but a simple text file can do all the magic:
 
-![Alt text](http://therapidplatform.com/wp-content/uploads/2012/11/options1.jpg)
+![options bootstrap a](http://therapidplatform.com/wp-content/uploads/2012/11/options1.jpg)
 
 ...instantly becomes this:
 
-![Alt text](http://therapidplatform.com/wp-content/uploads/2012/11/options2.jpg)
+![options bootstrap b](http://therapidplatform.com/wp-content/uploads/2012/11/options2.jpg)
 
 ...and when the text file changes, the forms, fields and database are automatically updated. Traditionally, you might find yourself stripping out the field elements, deleting the validation/sanitation logic for those fields, modifying the database/sql procedures that couple these fields to the database, etc.
 
