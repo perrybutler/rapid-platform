@@ -3,7 +3,7 @@ Rapid Platform
   
 Rapid Platform is a streamlined approach for building websites/webapps and rapid prototyping. It's a plugin for WordPress (a content management system). Built from scratch with responsive web design principles and best practices at it's core.  
 
-Visit our official website [TheRapidPlatform.com](http://therapidplatform.com) for more information.
+Join our [Google+ community](https://plus.google.com/u/0/b/110639079393921179427/communities/108899206842693997128) or visit the [official website](http://therapidplatform.com) for more information.
 
 Features
 --------
