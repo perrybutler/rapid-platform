@@ -19,7 +19,7 @@ A fluid grid based on fixed percentages, with columns that automatically stack v
   
 Weirded out by the brackets? Shortcodes are kind of like markdown...syntax for a highly simplified text editor which converts (gets pre-processed) into actual PHP/HTML content.
 
-We're tired of seeing Framework X offering "20 layout templates" and Premium Theme Y offering "premium layout templates for $30 more". What's the obsession with all of these hard-coded layout templates? See our home page remakes of [Twitter Bootstrap](http://therapidplatform.com/showcase/bootstrap/) or [WordPress.org](http://therapidplatform.com/showcase/wordpress-org/) to see what kind of layouts we're able to achieve **in as little as 5 minutes** with Rapid Grids.
+We're tired of seeing Framework X offering "20 layout templates" and Premium Theme Y offering "premium layout templates for $30 more". What's the obsession with all of these hard-coded layout templates? See our home page remakes of [Twitter Bootstrap](http://therapidplatform.com/showcase/bootstrap/) or [WordPress.org](http://therapidplatform.com/showcase/wordpress-org/) to see what kind of layouts we're able to achieve **in as little as 5 minutes** with Rapid Grids. By the way, our home page remakes are fully responsive by default :)
 
 ![rp_grid](http://files.glassocean.net/github/rp-grid.png)
 
