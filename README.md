@@ -3,6 +3,8 @@ Rapid Platform
   
 Rapid Platform is a streamlined approach for building websites/webapps and rapid prototyping. It's a plugin for WordPress (a content management system). Built from scratch with responsive web design principles and best practices at it's core.  
 
+Visit our official website [TheRapidPlatform.com](http://therapidplatform.com) for more information.
+
 Grids
 -----
 
@@ -44,4 +46,4 @@ An automatic option page builder that creates entire options pages in the WordPr
 
 ...and when the text file changes, the forms, fields and database are automatically updated. Traditionally, you might find yourself stripping out the field elements, deleting the validation/sanitation logic for those fields, modifying the database/sql procedures that couple these fields to the database, etc.
 
-More neat stuff here.
+More neat stuff goes here.
