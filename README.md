@@ -5,8 +5,10 @@ Rapid Platform is a streamlined approach for building websites/webapps and rapid
 
 Visit our official website [TheRapidPlatform.com](http://therapidplatform.com) for more information.
 
-Grids
------
+Features
+--------
+
+### Grids
 
 A fluid grid based on fixed percentages, with columns that automatically stack vertically for smartphones. It's one of the easiest grid systems to use; Rapid Platform can build a four column responsive grid with the following shortcodes:  
 
@@ -19,8 +21,7 @@ Weirded out by the brackets? Shortcodes are kind of like markdown...syntax for a
 
 ![rp_grid](http://files.glassocean.net/github/rp-grid.png)
 
-UI Controls & Widgets
----------------------
+### UI Controls & Widgets
 
 A robust set of UI controls and components ready to drop into a page. Oauth/OpenID Login (Google/Facebook/Yahoo/MyOpenID), Lightbox Popups, Buttons, Tabs, Sliders, Google Web Fonts, Glyph Icons, etc:  
 
@@ -33,8 +34,7 @@ A robust set of UI controls and components ready to drop into a page. Oauth/Open
 
 ![responsive ui](http://files.glassocean.net/github/rp-responsive-ui.png)
 
-Options Bootstrapper
---------------------
+### Options Bootstrapper
 
 An automatic option page builder that creates entire options pages in the WordPress admin dashboard with forms and fields tied into the database. Currently no UI designer for this, but a simple text file can do all the magic:
 
@@ -45,5 +45,27 @@ An automatic option page builder that creates entire options pages in the WordPr
 ![options bootstrap b](http://therapidplatform.com/wp-content/uploads/2012/11/options2.jpg)
 
 ...and when the text file changes, the forms, fields and database are automatically updated. Traditionally, you might find yourself stripping out the field elements, deleting the validation/sanitation logic for those fields, modifying the database/sql procedures that couple these fields to the database, etc.
+
+Roadmap
+-------
+
+### Release
+
+Commit v0.2 which includes the new object-oriented architecture, a boatload of bugfixes, and many new controls/widgets/components.
+
+### Fully embrace markdown
+
+* Wait for WP native support, or implement via open-source lib?
+* Authors/publishers need a better workflow and editor, bottom line!!! We don't want authors/publishers having to fiddle with code. Average Joe needs a good workflow, and what could be easier than markdown?
+* Authors/publishers should have the ability to mix shortcodes with markdown and this should be easy to learn because the syntax is similar. Through the use of a plain text editor, authors/publishers would have the ability to design highly advanced "application-like" functionality without digging into php templates or javascript code.
+* A markdown + shortcode editor with drag/drop enhancements would be far more ideal than the hybrid TinyMCE editor currently in WordPress.
+* The editor in WordPress is clunky. The Visual tab in the editor is not very visual because you only see a very basic hard-wrapped preview of your content rather than the real thing. The HTML tab in the editor is not very HTML because your elements will get re-parsed (and sometimes mangled) by WP/TinyMCE if you switch back to the Visual tab. It's just not cool when your HTML elements disappear.
+* The Ghost blogging platform takes a similar approach to what we're hoping to achieve. Let's take it a few steps further and combine the real-time capabilities of Ghost's markdown with shortcodes and LESS!
+* The "new" markdown + shortcode editor would replace instances of the TinyMCE editor throughout WordPress. This puts us in line with one of our other roadmap features: live editing.
+
+### Live editing
+
+* Authors/editors (when given permission through the backend) should have the ability to view the website in their browser and make live edits to the content using specially tagged regions.
+* It should work like this: An author/editor notices a typo in the Title of a Blog Post, so he turns on Edit Mode which creates an overlay on top of the live website, highlighing those specially tagged regions. From this point the author/editor can click on any of the highlighted regions to make a live edit; a textbox appears where the author/editor can change the Title of the Blog Post. After changing the Title, he clicks OK to view the change, and we store all changes in a "dirty-state" object. Finally, the author/editor can commit his changes which pushes the "dirty-state"  object through a formatter/sanitizer, making any needed updates to the matching content in the database.
 
 More neat stuff goes here.
