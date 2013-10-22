@@ -69,7 +69,7 @@ Commit v0.2 which includes the new object-oriented architecture, a boatload of b
 
 ### Live editing
 
-**Live editing is currently being developed in a side project I'm working on and will find its way into Rapid Platform once the first generation of live editing has matured**
+**Live editing is currently being developed in a side project I'm working on and will find its way into Rapid Platform once the first generation of live editing has matured. It's like a fancy HTML5 WYSIWYG (InnovaStudios, Aloha, Unify) without all the clutter and fuss.**
 
 * Authors/editors (when given permission through the backend) should have the ability to view the website in their browser and make live edits to the content using specially tagged regions.
 * It should work like this: An author/editor notices a typo in the Title of a Blog Post, so he turns on Edit Mode which creates an overlay on top of the live website, highlighing those specially tagged regions. From this point the author/editor can click on any of the highlighted regions to make a live edit, so he clicks the Title region and a textbox appears where he can change the Title of the Blog Post. After changing the Title, he clicks OK to view the change, and we store all changes in a "dirty-state" object. Finally, the author/editor can commit his changes which pushes the "dirty-state" object through a formatter/sanitizer, making any needed updates to the matching content in the database.
