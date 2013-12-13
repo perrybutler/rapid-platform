@@ -10,7 +10,7 @@ Join our [Google+ community](https://plus.google.com/u/0/b/110639079393921179427
 Features
 --------
 
-### Grids
+### Responsive Grids
 
 A fluid grid based on fixed percentages, with columns that automatically stack vertically for smartphones. It's one of the easiest grid systems to use; Rapid Platform can build a four column responsive grid with the following shortcodes:  
 
@@ -25,9 +25,9 @@ We're tired of seeing Framework X offering "20 layout templates" and Premium The
 
 ![rp_grid](http://files.glassocean.net/github/rp-grid.png)
 
-### UI Controls & Widgets
+### Rapid UI
 
-A robust set of UI controls and components ready to drop into a page. Oauth/OpenID Login (Google/Facebook/Yahoo/MyOpenID), Lightbox Popups, Buttons, Tabs, Sliders, Google Web Fonts, Glyph Icons, etc:  
+A robust set of UI controls and components ready to drop into a page. OAuth2.0/OpenID Login (Google/Facebook/Yahoo/MyOpenID), Lightbox Popups, Buttons, Tabs, Sliders, Google Web Fonts, Glyph Icons, etc:  
 
     [rp_login_form]  
     [rp_lightbox]  
@@ -38,15 +38,15 @@ A robust set of UI controls and components ready to drop into a page. Oauth/Open
 
 ![responsive ui](http://files.glassocean.net/github/rp-responsive-ui.png)
 
-### Options Bootstrapper
+### Rapid Settings
 
-An automatic option page builder that creates entire options pages in the WordPress admin dashboard with forms and fields tied into the database. Currently no UI designer for this, but a simple text file can do all the magic:
+Automatically creates entire settings pages in the WordPress admin dashboard with forms and fields tied into the database. Currently no UI designer for this, but a simple text file can do all the magic:
 
-![options bootstrap a](http://therapidplatform.com/wp-content/uploads/2012/11/options1.jpg)
+![rapid settings a](http://therapidplatform.com/wp-content/uploads/2012/11/options1.jpg)
 
 ...instantly becomes this:
 
-![options bootstrap b](http://therapidplatform.com/wp-content/uploads/2012/11/options2.jpg)
+![rapid settings b](http://therapidplatform.com/wp-content/uploads/2012/11/options2.jpg)
 
 ...and when the text file changes, the forms, fields and database are automatically updated. Traditionally, you might find yourself stripping out the field elements, deleting the validation/sanitation logic for those fields, modifying the database/sql procedures that couple these fields to the database, etc.
 
