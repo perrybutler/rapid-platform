@@ -61,12 +61,31 @@ That said, here's how to get started:
 
 1. Manually download and install the Rapid Platform plugin for your WordPress site
 2. Active the plugin via the WordPress admin dashboard
-3. That's it! All documentation and examples can be found at TheRapidPlatform.com
+3. That's it! Documentation and examples can be found at [TheRapidPlatform.com](http://therapidplatform.com)
 
-You may also want to activate the sample config which gives a quick demonstration of how to add your own custom settings to the WordPress admin backend:
+### Rapid UI Quickstart
+
+WordPress shortcodes can be used to insert UI components into any WordPress Page or Post.
+
+Adding a button:
+
+1. Edit a Page/Post and type this shortcode somewhere in the body: [rp_button]
+2. Publish, then visit the Page/Post to see your new button in action
+3. That's it! Documentation and examples can be found at [TheRapidPlatform.com](http://therapidplatform.com)
+
+Adding an accordion:
+
+1. Edit a Page/Post and type this shortcode somewhere in the body:
+    [rp_accordion title="Hidden Text"]This is my hidden text.[/rp_accordion]
+2. Publish, then visit the Page/Post to see your new accordion in action
+3. That's it! Documentation and examples can be found at [TheRapidPlatform.com](http://therapidplatform.com)
+
+### Rapid Settings Quickstart
+
+Activate the sample config which gives a quick demonstration of how to add your own custom settings to the WordPress admin backend:
 
 1. In the Rapid Platform plugin's root directory, rename the rapid-config-sample.php file to rapid-config.php
-2. Visit the WordPress admin dashboard and the new settings will be initialized
+2. Visit the WordPress admin dashboard and the sample settings will be initialized
 3. Visit the Rapid Settings menu to observe the sample settings
 
 Feel free to modify the rapid-config.php file to create your own settings in the WordPress admin backend. You can change the rapid-config.php file(s) at any time and WordPress will initialize your changes the next time you visit the admin dashboard. The rapid-config.php file can be copied or moved into a (parent/child) theme's root directory, allowing that theme to incorporate its own independent set of options when the theme (and Rapid Platform) are activated.
