@@ -69,7 +69,7 @@ WordPress shortcodes can be used to insert UI components into any WordPress Page
 
 Adding a button:
 
-1. Edit a Page/Post and type this shortcode somewhere in the body: [rp_button]
+1. Edit a Page/Post and type this shortcode somewhere in the body: [rp_button caption="My Button" link="bing.com"]
 2. Publish, then visit the Page/Post to see your new button in action
 3. That's it! Documentation and examples can be found at [TheRapidPlatform.com](http://therapidplatform.com)
 
@@ -82,7 +82,9 @@ Adding an accordion:
 
 ### Rapid Settings Quickstart
 
-Activate the sample config which gives a quick demonstration of how to add your own custom settings to the WordPress admin backend:
+The included sample config which gives a quick demonstration of how to add your own custom settings to the WordPress admin backend.
+
+Activating the sample config:
 
 1. In the Rapid Platform plugin's root directory, rename the rapid-config-sample.php file to rapid-config.php
 2. Visit the WordPress admin dashboard and the sample settings will be initialized
