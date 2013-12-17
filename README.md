@@ -56,8 +56,15 @@ Quickstart
 Rapid Platform has not yet been released to the WordPress.org Plugins Repository. Until then, plugin installation and upgrades must be performed manually.
 
 1. Manually download and install the Rapid Platform plugin for your WordPress site
-2. Add the sample rapid-config.php file into your parent/child theme's root directory
-3. Active the plugin via the WordPress admin dashboard
+2. Active the plugin via the WordPress admin dashboard
+
+You may also want to activate the sample config, which can be copied into your parent/child theme for specifying custom settings in the WordPress admin dashboard:
+
+1. In the Rapid Platform plugin's root directory, rename the rapid-config-sample.php file to rapid-config.php
+2. Visit the WordPress admin dashboard and the new settings will be initialized
+3. Visit the Rapid Settings menu to observe the sample settings
+
+Feel free to modify the rapid-config.php file to create your own settings in the WordPress admin backend.
 
 Roadmap
 -------
