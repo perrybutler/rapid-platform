@@ -58,13 +58,13 @@ Rapid Platform has not yet been released to the WordPress.org Plugins Repository
 1. Manually download and install the Rapid Platform plugin for your WordPress site
 2. Active the plugin via the WordPress admin dashboard
 
-You may also want to activate the sample config, which can be copied into your parent/child theme for specifying custom settings in the WordPress admin dashboard:
+You may also want to activate the sample config which gives a quick demonstration of how to add your own custom settings to the WordPress admin backend:
 
 1. In the Rapid Platform plugin's root directory, rename the rapid-config-sample.php file to rapid-config.php
 2. Visit the WordPress admin dashboard and the new settings will be initialized
 3. Visit the Rapid Settings menu to observe the sample settings
 
-Feel free to modify the rapid-config.php file to create your own settings in the WordPress admin backend. You can change the rapid-config.php file(s) at any time and WordPress will initialize your changes the next time you visit the WordPress admin dashboard.
+Feel free to modify the rapid-config.php file to create your own settings in the WordPress admin backend. You can change the rapid-config.php file(s) at any time and WordPress will initialize your changes the next time you visit the admin dashboard. The rapid-config.php file can be copied or moved into a (parent/child) theme's root directory, allowing that theme to incorporate its own independent set of options when the theme (and Rapid Platform) are activated.
 
 Roadmap
 -------
