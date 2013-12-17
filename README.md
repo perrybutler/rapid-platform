@@ -50,6 +50,15 @@ Automatically creates entire settings pages in the WordPress admin dashboard wit
 
 ...and when the text file changes, the forms, fields and database are automatically updated. Traditionally, you might find yourself stripping out the field elements, deleting the validation/sanitation logic for those fields, modifying the database/sql procedures that couple these fields to the database, etc.
 
+Quickstart
+----------
+
+1 Manually* download and install the Rapid Platform plugin for your WordPress site
+2 Add the sample rapid-config.php file into your parent/child theme's root directory
+3 Active the plugin via the WordPress admin dashboard
+
+* Rapid Platform has not yet been released to the WordPress.org Plugins Repository. Until then, plugin installation and upgrades must be performed manually.
+
 Roadmap
 -------
 
