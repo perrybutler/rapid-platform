@@ -82,7 +82,7 @@ Adding an accordion:
 
 ### Rapid Settings Quickstart
 
-The included sample config which gives a quick demonstration of how to add your own custom settings to the WordPress admin backend.
+The included sample config provides a quick demonstration of how to add your own custom settings to the WordPress admin backend.
 
 Activating the sample config:
 
