@@ -61,6 +61,7 @@ That said, here's how to get started:
 
 1. Manually download and install the Rapid Platform plugin for your WordPress site
 2. Active the plugin via the WordPress admin dashboard
+3. That's it! All documentation and examples can be found at TheRapidPlatform.com
 
 You may also want to activate the sample config which gives a quick demonstration of how to add your own custom settings to the WordPress admin backend:
 
