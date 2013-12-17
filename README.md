@@ -55,6 +55,10 @@ Quickstart
 
 Rapid Platform has not yet been released to the WordPress.org Plugins Repository. Until then, plugin installation and upgrades must be performed manually.
 
+PROCEED AT YOUR OWN RISK. If you feel uncertain, or you don't have a solid backup strategy, or you don't have a temporary site to experiment with first, this plugin might not be for you until it has undergone a rigorous review by the WordPress.org team and added to the Plugins Repository.
+
+That said, here's how to get started:
+
 1. Manually download and install the Rapid Platform plugin for your WordPress site
 2. Active the plugin via the WordPress admin dashboard
 
