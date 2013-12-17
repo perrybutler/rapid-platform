@@ -64,7 +64,7 @@ You may also want to activate the sample config, which can be copied into your p
 2. Visit the WordPress admin dashboard and the new settings will be initialized
 3. Visit the Rapid Settings menu to observe the sample settings
 
-Feel free to modify the rapid-config.php file to create your own settings in the WordPress admin backend.
+Feel free to modify the rapid-config.php file to create your own settings in the WordPress admin backend. You can change the rapid-config.php file(s) at any time and WordPress will initialize your changes the next time you visit the WordPress admin dashboard.
 
 Roadmap
 -------
