@@ -8,19 +8,6 @@ Join our [Google+ community](https://plus.google.com/u/0/b/110639079393921179427
 Features
 --------
 
-### Responsive Grids
-
-A fluid grid based on fixed percentages, with columns that automatically stack vertically for smartphones. It's one of the easiest grid systems to use; Rapid Platform can build a four column responsive grid with the following shortcodes:  
-
-    [rp_grid count="4" span="1"]html_content_goes_here[/rp_grid]  
-    [rp_grid count="4" span="1"]html_content_goes_here[/rp_grid]  
-    [rp_grid count="4" span="1"]html_content_goes_here[/rp_grid]  
-    [rp_grid count="4" span="1"]html_content_goes_here[/rp_grid]  
-  
-![rp_grid](http://files.glassocean.net/github/rp-grid.png)
-
-Tired of seeing Framework X offering "20 layout templates" and Premium Theme Y offering "premium layout templates for $30 more"? What's the obsession with all of these hard-coded layout templates? See our home page remakes of [Twitter Bootstrap](http://therapidplatform.com/showcase/bootstrap/) or [WordPress.org](http://therapidplatform.com/showcase/wordpress-org/) to see what kind of layouts we're able to achieve **in as little as 5 minutes** with the Rapid UI Grid. By the way, our home page remakes are fully responsive by default :)
-
 ### Rapid UI
 
 A robust set of UI controls and components ready to drop into a page. OAuth2.0/OpenID Login (Google/Facebook/Yahoo/MyOpenID), Lightbox Popups, Buttons, Tabs, Sliders, Google Web Fonts, Glyph Icons, etc:  
@@ -33,6 +20,19 @@ A robust set of UI controls and components ready to drop into a page. OAuth2.0/O
     <span class="icon-download">Download</span>  
 
 ![responsive ui](http://files.glassocean.net/github/rp-responsive-ui.png)
+
+#### Rapid UI Grid
+
+A fluid grid based on fixed percentages, with columns that automatically stack vertically for smartphones. It's one of the easiest grid systems to use; Rapid Platform can build a four column responsive grid with the following shortcodes:  
+
+    [rp_grid count="4" span="1"]html_content_goes_here[/rp_grid]  
+    [rp_grid count="4" span="1"]html_content_goes_here[/rp_grid]  
+    [rp_grid count="4" span="1"]html_content_goes_here[/rp_grid]  
+    [rp_grid count="4" span="1"]html_content_goes_here[/rp_grid]  
+  
+![rp_grid](http://files.glassocean.net/github/rp-grid.png)
+
+Tired of seeing Framework X offering "20 layout templates" and Premium Theme Y offering "premium layout templates for $30 more"? What's the obsession with all of these hard-coded layout templates? See our home page remakes of [Twitter Bootstrap](http://therapidplatform.com/showcase/bootstrap/) or [WordPress.org](http://therapidplatform.com/showcase/wordpress-org/) to see what kind of layouts we're able to achieve **in as little as 5 minutes** with the Rapid UI Grid. By the way, our home page remakes are fully responsive by default :)
 
 ### Rapid Settings
 
