@@ -61,7 +61,7 @@ That said, here's how to get started:
 
 ### Rapid UI Quickstart
 
-WordPress shortcodes can be used to insert UI components into any WordPress Page or Post.
+WordPress shortcodes can be used to insert Rapid UI components into any WordPress Page or Post.
 
 Adding a button:
 
