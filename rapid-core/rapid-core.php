@@ -18,7 +18,7 @@ $rapid_platform = new RapidPlatform();
 // Rapid Platform core class (protected namespace)
 class RapidPlatform {
 
-	//UNDONE: singleton pattern...no benefit?
+	//UNDONE: singleton pattern...no benefit? also see http://stackoverflow.com/questions/1148068/how-to-avoid-using-php-global-objects
 	/*
 	private static $instance = null;
 	public static function get_instance() {
@@ -59,9 +59,10 @@ class RapidPlatform {
 		//	been included, which can be hard to debug, we need better error handling here...
 		$this->ui = new RapidUI();
 		$this->settings = new RapidSettings();
-		//UNDONE: RapidLogin() is deprecated; instead we should merge in recent work on 
-		//	my WP-OpenLogin plugin...will need to determine how to handle plugin dependencies
-		//$this->login = new RapidLogin();
+		/*UNDONE: RapidLogin() is deprecated; instead we should merge in recent work on 
+			my WP-OpenLogin plugin...will need to determine how to handle plugin dependencies
+		$this->login = new RapidLogin();
+		*/
 		
 		add_action ( 'init', array($this, 'init') );
 
@@ -73,13 +74,14 @@ class RapidPlatform {
 		add_action( 'admin_enqueue_scripts', array($this, 'admin_scripts_init') );
 		add_action( 'admin_init', array($this, 'activate') );
 		add_action( 'wp_footer', array($this, 'load_lightbox') );
-		// UNDONE: this causes major HTML elements to appear in the title for all items on the media page!!!
-		// only filter the_title to include admin controls if the setting is enabled
-		//if ( !$this->options_framework->stored_rapid_options['fontend_admin_controls'] ) {}
-		//add_filter( "the_title", array($this, "frontend_admin_controls") );
+		/*UNDONE: this causes major HTML elements to appear in the title for all items on the media page!!!
+		 only filter the_title to include admin controls if the setting is enabled
+		if ( !$this->options_framework->stored_rapid_options['fontend_admin_controls'] ) {}
+		add_filter( "the_title", array($this, "frontend_admin_controls") );
+		*/
 	}
 	
-	// initializes scripts for use by all pages
+	// initializes scripts for use by all pages (aka global scripts)
 	function global_scripts_init() {
 		wp_enqueue_script('jquery');
 		wp_enqueue_script('jquery-ui-core');
@@ -89,18 +91,19 @@ class RapidPlatform {
 		wp_enqueue_script('less', plugins_url('/../libs/less/less-1.3.3.min.js', __FILE__), array(), false, true);
 	}
 	
-	// initializes scripts for the backend (admin) pages
+	// initializes scripts for the admin backend pages (aka admin scripts)
 	function admin_scripts_init() {
 		wp_register_script('rapid_core_script', plugins_url('/rapid-core.js', __FILE__), 'jquery');
 		wp_enqueue_script('rapid_core_script');
 	}
 	
-	// this gets fired on admin_init; currently not needed for anything
+	// this gets fired on admin_init; currently not used for anything
 	function activate() {
 
 	}
 	
 	// this injects the lightbox component into a page template; usually best to place this in a theme's footer.php
+	// TODO: rpDialog replaces this...determine best way to unify
 	function load_lightbox() {
 		echo '<div class="rp-lightbox"><div class="rp-lightbox-controls"><a class="rp-lightbox-control-close" href="#"><i class="icon-cancel"></i></a></div><div class="rp-lightbox-title"></div><p class="rp-lightbox-body"></div>';
 		echo '<div class="rp-lightbox-dimmer"></div>';

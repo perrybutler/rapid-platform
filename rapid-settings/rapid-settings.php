@@ -22,17 +22,26 @@ class RapidSettings {
 	
 	function __construct() {
 		
-		// load the user-defined options from the rapid-config.php file(s).
-		$core_config = "rapid-config.php";
-		$parent_theme_config = get_template_directory() . '/' . $core_config;
-		$child_theme_config = get_stylesheet_directory() . '/' . $core_config;
+		// load the user-defined settings from the rapid-config.php file(s).
+		$config_name = "rapid-config.php";
+		$core_config = dirname(__FILE__) . "/" . $config_name;
+		$sample_config = dirname(__FILE__) . "/../" . $config_name;
+		$parent_theme_config = get_template_directory() . '/' . $config_name;
+		$child_theme_config = get_stylesheet_directory() . '/' . $config_name;
 		if (file_exists($child_theme_config)) {
+			// load config in child theme folder
 			include_once($child_theme_config);
 		}
 		if (file_exists($parent_theme_config)) {
+			// load config in parent theme folder
 			include_once($parent_theme_config);
 		}
-		include_once(dirname(__FILE__) . "/../" . $core_config);
+		if (file_exists($sample_config)) {
+			// load sample config (included with Rapid Platform, not user-defined)
+			include_once($sample_config);
+		}
+		// load core config (included with Rapid Platform, not user-defined)
+		include_once($core_config);
 
 		// start the $_SESSION to persist admin_notices through ajax calls
 		session_start();
@@ -271,7 +280,7 @@ class RapidSettings {
 		update_option("rapid_options", $this->stored_rapid_options);
 		// notify the user
 		if ($rows_affected > 0) {
-			$this->update_admin_notice('deferred_rapid_data_installed', "Rapid Platform <span style='color:#00dd00; font-weight:bold;'>initialized " . $rows_affected . " option(s)</span> found in the rapid-config.php file(s). Consider viewing or changing these options via the Rapid Options menu.");
+			$this->update_admin_notice('deferred_rapid_data_installed', "Rapid Platform <span style='color:#00dd00; font-weight:bold;'>initialized " . $rows_affected . " settings</span> found in the rapid-config.php file(s). Consider viewing or changing these settings via the <a href='admin.php?page=rapid-admin'>Rapid Settings</a> menu.");
 		}
 	}
 
@@ -283,7 +292,7 @@ class RapidSettings {
 		// detect orphaned options
 		$orphaned_rapid_options = array_diff_key($this->stored_rapid_options, $this->default_rapid_options);
 		if (count($orphaned_rapid_options) > 0) {
-			$this->update_admin_notice('deferred_rapid_data_orphans', "Rapid Platform <span style='color:#ff9900; font-weight:bold;'>detected " . count($orphaned_rapid_options) . " option(s)</span> in the database which are no longer defined in the rapid-config.php file(s). Consider viewing or deleting these orphaned options via the Rapid Options > Maintenance menu.");
+			$this->update_admin_notice('deferred_rapid_data_orphans', "Rapid Platform <span style='color:#ff9900; font-weight:bold;'>detected " . count($orphaned_rapid_options) . " settings</span> in the database which are no longer defined in the rapid-config.php file(s). Consider viewing or deleting these orphaned settings via the Maintenance tab in the <a href='admin.php?page=rapid-admin'>Rapid Settings</a> menu.");
 		}
 	}
 
