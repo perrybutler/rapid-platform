@@ -1,11 +1,10 @@
-Rapid Platform  
+![Rapid Platform](http://files.glassocean.net/github/rp-banner.jpg)
+Rapid Platform
 ==============  
   
 Rapid prototyping and development for WordPress sites, apps and themes. It's a plugin for WordPress built from scratch with responsive web design principles and best practices at it's core.  
 
 Join our [Google+ community](https://plus.google.com/u/0/b/110639079393921179427/communities/108899206842693997128) or visit the [official website](http://therapidplatform.com) for more information.  
-
-![rp](http://files.glassocean.net/github/rp-banner.jpg)
 
 Features
 --------
@@ -19,11 +18,9 @@ A fluid grid based on fixed percentages, with columns that automatically stack v
     [rp_grid count="4" span="1"]html_content_goes_here[/rp_grid]  
     [rp_grid count="4" span="1"]html_content_goes_here[/rp_grid]  
   
-Weirded out by the brackets? Shortcodes are kind of like markdown...syntax for a highly simplified text editor which converts (gets pre-processed) into actual PHP/HTML content.
+![rp_grid](http://files.glassocean.net/github/rp-grid.png)
 
 Tired of seeing Framework X offering "20 layout templates" and Premium Theme Y offering "premium layout templates for $30 more"? What's the obsession with all of these hard-coded layout templates? See our home page remakes of [Twitter Bootstrap](http://therapidplatform.com/showcase/bootstrap/) or [WordPress.org](http://therapidplatform.com/showcase/wordpress-org/) to see what kind of layouts we're able to achieve **in as little as 5 minutes** with the Rapid UI Grid. By the way, our home page remakes are fully responsive by default :)
-
-![rp_grid](http://files.glassocean.net/github/rp-grid.png)
 
 ### Rapid UI
 
