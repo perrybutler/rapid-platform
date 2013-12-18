@@ -1,5 +1,4 @@
 ![Rapid Platform](http://files.glassocean.net/github/rp-banner.jpg)
-Rapid Platform
 ==============  
   
 Rapid prototyping and development for WordPress sites, apps and themes. It's a plugin for WordPress built from scratch with responsive web design principles and best practices at it's core.  
