@@ -112,4 +112,8 @@ Commit v0.2 which includes the new object-oriented architecture, a boatload of b
 * Authors/editors (when given permission through the backend) should have the ability to view the website in their browser and make live edits to the content using specially tagged regions.
 * It should work like this: An author/editor notices a typo in the Title of a Blog Post, so he turns on Edit Mode which creates an overlay on top of the live website, highlighing those specially tagged regions. From this point the author/editor can click on any of the highlighted regions to make a live edit, so he clicks the Title region and a textbox appears where he can change the Title of the Blog Post. After changing the Title, he clicks OK to view the change, and we store all changes in a "dirty-state" object. Finally, the author/editor can commit his changes which pushes the "dirty-state" object through a formatter/sanitizer, making any needed updates to the matching content in the database.
 
+### Niche features and components
+
+Without revealing too much about the unsaid future, there are currently plans to incorporate features specific to Real Estate, eCommerce/eStore, eSports, Digital Advertising, etc, some of which may become core components and others being  released as niche themes "built with Rapid Platform", depending upon the nature of the market and community. We hope that Rapid Platform will continue evolving towards a full-featured, cross-platform, write-once run-anywhere site/app/prototype development toolkit.
+
 More neat stuff goes here.
