@@ -105,7 +105,7 @@ Commit v0.2 which includes the new object-oriented architecture, a boatload of b
 * The Ghost blogging platform takes a similar approach to what we're hoping to achieve. Let's take it a few steps further and combine the real-time capabilities of Ghost's markdown with shortcodes and LESS!
 * The "new" markdown + shortcode editor would replace instances of the TinyMCE editor throughout WordPress. This puts us in line with one of our other roadmap features: live editing.
 
-### Live editing
+### Rapid Edit
 
 **Live editing is currently being developed in a side project I'm working on and will find its way into Rapid Platform once the first generation of live editing has matured. It's like a fancy HTML5 WYSIWYG (InnovaStudios, Aloha, Unify) without all the clutter and fuss.**
 
