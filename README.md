@@ -114,6 +114,6 @@ Commit v0.2 which includes the new object-oriented architecture, a boatload of b
 
 ### Niche features and components
 
-Without revealing too much about the unsaid future, there are currently plans to incorporate features specific to Real Estate, eCommerce/eStore, eSports, Digital Advertising, etc, some of which may become core components and others being  released as niche themes "built with Rapid Platform", depending upon the nature of the market and community. We hope that Rapid Platform will continue evolving towards a full-featured, cross-platform, write-once run-anywhere site/app/prototype development toolkit.
+Without revealing too much about the unsaid future, there are currently plans to incorporate features specific to Real Estate, eCommerce/eStore, eSports, Digital Advertising, etc, some of which may become core components and others being  released as niche themes "built with Rapid Platform", depending upon the nature of the market and community. We hope that Rapid Platform will continue evolving towards a lean, full-featured, cross-platform, write-once run-anywhere site/app/prototype development toolkit.
 
 More neat stuff goes here.
