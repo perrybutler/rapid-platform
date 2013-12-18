@@ -36,7 +36,7 @@ Tired of seeing Framework X offering "20 layout templates" and Premium Theme Y o
 
 ### Rapid Settings
 
-Automatically creates entire settings pages in the WordPress admin dashboard with forms and fields tied into the database. Currently no UI designer for this, but a simple text file can do all the magic:
+Automatically creates entire settings pages in the WordPress admin dashboard with forms and fields tied into the database. Settings are defined in plain text:
 
 ![rapid settings a](http://therapidplatform.com/wp-content/uploads/2012/11/options1.jpg)
 
