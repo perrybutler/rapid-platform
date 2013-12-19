@@ -54,7 +54,7 @@ class RapidSettings {
 		$this->handle_orphaned_options();
 		
 		// register action hooks
-		add_action( 'admin_menu', array($this, 'admin_page_init') ); // add a submenu ("Rapid Options") to the admin panel's menu structure
+		add_action( 'admin_menu', array($this, 'admin_page_init') ); // adds a submenu ("Rapid Settings") to the admin panel's menu structure
 		add_action( 'admin_bar_menu', array($this, 'admin_bar_init'), 999 );
 		add_action( 'wp_enqueue_scripts', array($this, 'global_inline_scripts') );
 		add_action( 'wp_ajax_save_options', array($this, 'save_options') );
@@ -225,7 +225,9 @@ class RapidSettings {
 
 
 	/* ====================================================================
-		ADMIN NOTICE FUNCTIONS: Warning: Invalid argument supplied for foreach()
+		ADMIN NOTICE FUNCTIONS:
+		
+		TODO: Warning: Invalid argument supplied for foreach()
 	*/
 	
 	public function get_admin_notices() {
