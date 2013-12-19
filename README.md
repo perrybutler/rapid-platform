@@ -88,12 +88,12 @@ Activating the sample config:
 
 Feel free to modify the rapid-config.php file to create your own settings in the WordPress admin backend. You can change the rapid-config.php file(s) at any time and WordPress will initialize your changes the next time you visit the admin dashboard. The rapid-config.php file can be copied or moved into a (parent/child) theme's root directory, allowing that theme to incorporate its own independent set of options when the theme (and Rapid Platform) are activated.
 
-Roadmap
--------
+Roadmap / Requested Features
+----------------------------
 
-### Release
+### Component Manager
 
-Commit v0.2 which includes the new object-oriented architecture, a boatload of bugfixes, and many new controls/widgets/components.
+Rapid Platform is an all-in-one/multi-task plugin. It should allow the admin to turn off certain components that aren't needed to speed up load times and reduce overall bloat.
 
 ### Fully embrace markdown
 
@@ -103,7 +103,7 @@ Commit v0.2 which includes the new object-oriented architecture, a boatload of b
 * A markdown + shortcode editor with drag/drop enhancements would be far more ideal than the hybrid TinyMCE editor currently in WordPress.
 * The editor in WordPress is clunky. The Visual tab in the editor is not very visual because you only see a very basic hard-wrapped preview of your content rather than the real thing. The HTML tab in the editor is not very HTML because your elements will get re-parsed (and sometimes mangled) by WP/TinyMCE if you switch back to the Visual tab. It's just not cool when your HTML elements disappear.
 * The Ghost blogging platform takes a similar approach to what we're hoping to achieve. Let's take it a few steps further and combine the real-time capabilities of Ghost's markdown with shortcodes and LESS!
-* The "new" markdown + shortcode editor would replace instances of the TinyMCE editor throughout WordPress. This puts us in line with one of our other roadmap features: live editing.
+* The "new" markdown + shortcode editor would replace instances of the TinyMCE editor throughout WordPress. This puts us in line with one of our other roadmap features: Rapid Edit.
 
 ### Rapid Edit
 
