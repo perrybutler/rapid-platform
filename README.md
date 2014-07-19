@@ -1,7 +1,7 @@
 ![Rapid Platform](http://files.glassocean.net/github/rp-banner.jpg)
 ==============  
   
-Note: see the [Rapid.js](http://github.com/perrybutler/rapid.js) project for a glimpse into the future of Rapid Platform.
+***Note: see the [Rapid.js](http://github.com/perrybutler/rapid.js) project for a glimpse into the future of Rapid Platform.***
   
 Rapid prototyping and development for WordPress sites, apps and themes. It's a plugin for WordPress built from scratch with responsive web design principles and best practices at it's core.  
 
